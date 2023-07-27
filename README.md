@@ -6,6 +6,6 @@ FIT quantifies the amount of information transmitted from a sender brain region 
 The main scripts to compute FIT, cFIT and Transfer Entropy (TE) from discrete data are compute_FIT.m, compute_cFIT.m, and compute_TE.m, respectively.
 These scripts take as an input a set of discrete arrays, representing neural responses at specific time points (i.e. the past/present activity of the sender and receiver regions) and external features of interest sampled across experimental trials.
 
-The example_FIT_TE.m script shows an example application of compute_FIT and compute_TE.
+The example_FIT_TE.m script shows an example application of compute_FIT and compute_TE on simulated data.
 
 The software has been tested with MATLAB version R2021a, no further dependencies are required. The software is released under the MIT license.
