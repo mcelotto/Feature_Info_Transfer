@@ -8,4 +8,4 @@ These scripts take as an input a set of discrete arrays, representing neural res
 
 The example_FIT_TE.m script shows an example application of compute_FIT and compute_TE.
 
-The software has been tested with MATLAB version R2021a, no further dependencies are needed. The software is released under the MIT license.
+The software has been tested with MATLAB version R2021a, no further dependencies are required. The software is released under the MIT license.
