@@ -5,7 +5,10 @@ Feature-specific Information Transfer (FIT)
 MATLAB implementation of Feature-specific Information Transfer (FIT) and conditional FIT (cFIT) measures associated to the paper
 ["An information-theoretic quantification of the content of communication between brain regions"](https://papers.nips.cc/paper_files/paper/2023/file/ca9eaef07eca2a50fc626cb929617b1c-Paper-Conference.pdf) from M. Celotto, J. Bím, A. Tlaie, V. De Feo, S.M. Lemke, D. Chicharro, H. Nili, M. Bieler, I.L. Hanganu-Opatz, T.H. Donner, A. Brovelli and S. Panzeri. NeurIPS 36 (2023).
 
-
+.. image:: https://github.com/mcelotto/Feature_Info_Transfer/blob/main/images/FIT_conceptual.png
+   :height: 300px
+   :alt: Schematic Pipeline Approach
+   :align: center
 
 FIT quantifies the amount of information transmitted from a sender brain region X to a receiver brain region Y about a specific external feature S. This approach goes beyond classic methodologies to study causal communication, such as Transfer Entropy (TE), which quantify the overall activity propagated from the sender to the receiver region. By isolating the feature-specific information flowing from one region to another, FIT sheds light on the actual content of the communication.
 
