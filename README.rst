@@ -12,9 +12,8 @@ MATLAB implementation of Feature-specific Information Transfer (FIT) and conditi
 
 FIT quantifies the amount of information transmitted from a sender brain region X to a receiver brain region Y about a specific external feature S. This approach goes beyond classic methodologies to study causal communication, such as Transfer Entropy (TE), which quantify the overall activity propagated from the sender to the receiver region. By isolating the feature-specific information flowing from one region to another, FIT sheds light on the actual content of the communication.
 
-The main scripts to compute FIT, cFIT and Transfer Entropy (TE) from discrete data are compute_FIT.m, compute_cFIT.m, and compute_TE.m, respectively.
-These scripts take as an input a set of discrete arrays, representing neural responses at specific time points (i.e. the past/present activity of the sender and receiver regions) and external features of interest sampled across experimental trials.
+The \src directory contains the main scripts to compute FIT, cFIT and Transfer Entropy (TE) from discrete data (called compute_FIT.m, compute_cFIT.m, and compute_TE.m, respectively). These scripts take as an input a set of discrete arrays, representing neural responses at specific time points (i.e. the past/present activity of the sender and receiver regions) and external features of interest sampled across experimental trials.
 
-The example_FIT_TE.m script shows an example application of compute_FIT and compute_TE on simulated data.
+The \test directory contains test scripts, showing example application of the methods on simulated data. Further simulations and real data applications, are available from the full paper supplemental material: `Download full paper material <https://openreview.net/attachment?id=lD8xaUWw24&name=supplementary_material>`_ .  
 
 The software has been tested with MATLAB version R2021a, no further dependencies are required. The software is released under the MIT license.
