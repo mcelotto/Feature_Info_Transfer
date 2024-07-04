@@ -3,7 +3,7 @@ Feature-specific Information Transfer (FIT)
 =====================================================
 
 MATLAB implementation of Feature-specific Information Transfer (FIT) and conditional FIT (cFIT) measures associated to the paper
-Celotto et al. (2023) `An information-theoretic quantification of the content of communication between brain regions <https://papers.nips.cc/paper_files/paper/2023/file/ca9eaef07eca2a50fc626cb929617b1c-Paper-Conference.pdf>`_, Advances in Neural Information Processing (NeurIPS) 36.
+Celotto et al. `An information-theoretic quantification of the content of communication between brain regions <https://papers.nips.cc/paper_files/paper/2023/file/ca9eaef07eca2a50fc626cb929617b1c-Paper-Conference.pdf>`_, Advances in Neural Information Processing (NeurIPS) 36, pp.64213-64265, 2023.
 
 .. image:: https://github.com/mcelotto/Feature_Info_Transfer/blob/main/images/FIT_conceptual.png
    :height: 300px
