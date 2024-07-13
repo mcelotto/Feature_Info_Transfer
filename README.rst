@@ -14,6 +14,6 @@ FIT quantifies the amount of information transmitted from a sender brain region 
 
 The \\src directory contains the main scripts to compute FIT, cFIT and Transfer Entropy (TE) from discrete data (called compute_FIT.m, compute_cFIT.m, and compute_TE.m, respectively). These scripts take as an input a set of discrete arrays, representing neural responses at specific time points (i.e. the past/present activity of the sender and receiver regions) and external features of interest sampled across experimental trials.
 
-The \\test directory contains test scripts, showing example application of the methods on simulated data. Further simulations and real data applications, are available from the full paper supplemental material: `Download full paper material <https://openreview.net/attachment?id=lD8xaUWw24&name=supplementary_material>`_ .  
+The \\test directory contains test scripts, showing an example application of the methods on simulated data. Further simulations and real data applications, are available from the full paper supplemental material: `Download full paper material <https://openreview.net/attachment?id=lD8xaUWw24&name=supplementary_material>`_ .  
 
 The software has been tested with MATLAB version R2021a, no further dependencies are required. The software is released under the MIT license.
