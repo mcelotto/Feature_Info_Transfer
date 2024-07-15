@@ -1,12 +1,15 @@
 function te = compute_TE(feature, X, Y, hY)
-% This function computes the Transfer Entropy (TE) from X to Y 
-% (see Schreiber T. (2000) Phys Rev Letters)
+% This function computes the Transfer Entropy (TE) from sender region X to receiver region Y 
+% (see Schreiber T. (2000) Phys Rev Letters, for the measure definition)
 
 % input: 
 % feature = discrete feature value (1 x trials). Feature input is not used to compute TE, but is taken as input to use the same function used for FIT to estimate  probability distributions
 % X = discrete past activity of the sender X_past (1 x trials)
 % Y = discrete present activity of the receiver Y_pres (1 x trials)
 % hY = discrete past activity of the receiver Y_past (1 x trials)
+%
+% Continuous-valued activity can be used to discretized
+% using the eqpop_binning.m function in \auxiliary 
 
 % output:
 % te = transfer entropy value
