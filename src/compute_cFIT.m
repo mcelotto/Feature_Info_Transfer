@@ -14,6 +14,10 @@ function cFIT = compute_cFIT( feature, X, Y, hY, hZ)
 % Y = discrete present activity of the receiver Y_pres (1 x trials)
 % hY = discrete past activity of the receiver Y_past (1 x trials)
 % hZ = discrete past activity of the third region Z_past (1 x trials)
+%
+% Continuous-valued features and activity can be used to discretized
+% using the eqpop_binning.m function in \auxiliary 
+
 
 % output:
 % cFIT = conditioned Feature-specific Information Transfer value (from X to Y about S, given Z)
