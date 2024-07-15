@@ -1,11 +1,21 @@
 function FIT = compute_FIT(feature, X, Y, hY)
-% This function computes the Feature-specific Information Transfer (FIT)
+% This function contains the core routine to compute Feature-specific Information Transfer (FIT) 
+% from a sender region X to a receiver region Y. 
+% The function takes as an input the discrete feature value (F), 
+% and the discrete values of X past, Y present and Y past measured across trials. 
+% Then, it builds the four-dimensional probability distribution p(F,X,Y,hY) by
+% counting the number of joint occurrences of each possible combination of the
+% four variables across trials. Lastly, it uses the PID I_min measure to compute
+% the two Shared Unique Information atoms appearing in FIT definition.
 
 % input: 
 % feature = discrete feature value (1 x trials)
 % X = discrete past activity of the sender X_past (1 x trials)
 % Y = discrete present activity of the receiver Y_pres (1 x trials)
 % hY = discrete past activity of the receiver Y_past (1 x trials)
+%
+% Continuous-valued features and activity can be used to discretized
+% using the eqpop_binning.m function in \auxiliary 
 
 % output:
 % FIT = Feature-specific Information Transfer value (from X to Y about S)
