@@ -1,6 +1,12 @@
 function cFIT = compute_cFIT( feature, X, Y, hY, hZ)
-%%
-% This function computes the conditional FIT (cFIT) from X to Y about S given Z
+% This function contains the core routine to compute conditional FIT (FIT) 
+% from a sender region X to a receiver region Y, given the activity of a third region Z. 
+% The function takes as an input the discrete feature value (F), 
+% and the discrete values of X past, Y present, Y past and Z past measured across trials. 
+% Then, it builds the five-dimensional probability distribution p(F,X,Y,hY,Z) by
+% counting the number of joint occurrences of each possible combination of the
+% five variables across trials. Lastly, it uses the PID I_min measure to compute
+% the two information atoms appearing in cFIT definition.
 
 % input: 
 % feature = discrete feature value (1 x trials)
